@@ -1,9 +1,13 @@
 {
-  "name": "train-automation-api",
+  "name": "train-cloud-api",
   "version": "1.0.0",
-  "description": "Auto Level Train Data Interceptor",
+  "description": "Cloud Train Data Interceptor",
   "main": "worker.js",
+  "scripts": {
+    "start": "node worker.js"
+  },
   "dependencies": {
-    "playwright-core": "^1.44.0"
+    "express": "^4.19.2",
+    "puppeteer": "^22.11.0"
   }
 }
