@@ -1,0 +1,9 @@
+{
+  "name": "train-automation-api",
+  "version": "1.0.0",
+  "description": "Auto Level Train Data Interceptor",
+  "main": "worker.js",
+  "dependencies": {
+    "playwright-core": "^1.44.0"
+  }
+}
